@@ -1,6 +1,10 @@
 #include<iostream>
 using namespace std;
 
+void say(int i){
+    cout << i << endl;
+}
+
 int main(){
-    cout << "Hello, world!" << endl;
+    say(2);
 }
